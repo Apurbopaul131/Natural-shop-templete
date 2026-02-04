@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import PopularProducts from "@/components/ui/PopularProducts";
 import Services from "@/components/ui/Services";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <Services />
+      <PopularProducts />
     </div>
   );
 }
