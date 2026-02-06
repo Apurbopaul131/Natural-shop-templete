@@ -23,15 +23,15 @@ const Navbar = () => {
       <div className="md:flex md:items-center md:space-x-4 hidden">
         <IoSearchOutline className="h-6 w-6" />
         <HiOutlineShoppingCart className="h-6 w-6" />
-        <button className="px-7 py-2 border-2 border-[#179800] rounded-md">
+        <button className="px-7 py-2 border-2 border-accent rounded-md">
           Login
         </button>
-        <button className="px-7 py-2 bg-[#179800] rounded-md text-white">
+        <button className="px-7 py-2 bg-accent rounded-md text-white">
           Register
         </button>
       </div>
       <div className="block md:hidden">
-        <IoMdMenu className="text-[#179800] md:w-8 md:h-8 w-12 h-12" />
+        <IoMdMenu className="text-accent md:w-8 md:h-8 w-12 h-12" />
       </div>
     </div>
   );

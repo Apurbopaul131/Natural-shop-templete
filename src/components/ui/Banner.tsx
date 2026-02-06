@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="text-center pt-16 pb-8 space-y-4">
         <h1 className="text-5xl font-semibold">
           Freshness{" "}
-          <span className="text-[#179800]">
+          <span className="text-accent">
             You can <br /> Count
           </span>{" "}
           On, Prices You Love!
